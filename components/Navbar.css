@@ -1,0 +1,58 @@
+.nav-bar,
+.container {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 10px;
+
+}
+
+.navBarAll {
+    position: sticky;
+    top: 0px;
+}
+
+.logo,
+.side-bar {
+    background-color: #3e4b4b;
+    width: 15%;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.side-bar, .right-bar {
+    max-height: 80vh;
+    position: sticky;
+    top: 80px;
+}
+
+.search {
+    background-color: #3e4b4b;
+    width: 68%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+
+
+.seller {
+    background-color: #3e4b4b;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    width: 15%;
+}
+
+.right-bar {
+    background-color: #3e4b4b;
+    padding: 5px;
+    border-radius: 10px;
+    width: 17%;
+    overflow-y: scroll;
+}
+.right-bar::-webkit-scrollbar{
+    display: none;
+}
